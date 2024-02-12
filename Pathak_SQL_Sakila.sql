@@ -60,7 +60,7 @@ FROM customer, payment
 WHERE payment.customer_id = customer.customer_id 
 GROUP BY customer.customer_id; 
 
--- Group 10 
+-- Question 10 
 SELECT language.name AS "Language", AVG(film.length) AS "Average Film Length"
 FROM film, language 
 WHERE language.language_id = film.language_id
